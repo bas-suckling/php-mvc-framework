@@ -8,7 +8,7 @@
         public function index() {
 
             $data = [
-                'title' => 'Welcome',
+                'title' => 'TraversyMVC',
             ];
             $this->view('pages/index', $data);
         }
